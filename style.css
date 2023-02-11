@@ -1,0 +1,29 @@
+#game{
+    background-color: #0b3402;
+    outline: 5px;
+    outline-color: #1a0c01;
+    max-width: calc(90% - 10px);
+}
+
+#score{
+    color: black;
+    font-size: 22px;
+}
+    
+
+body{
+    background-color: rgb(93, 183, 85);
+
+}
+
+#winner{
+    color: goldenrod;
+    font-size: 100px;
+    font-family: monospace;
+    margin-top: 0%;
+}
+
+#restartButton{
+color: white;
+background-color: black;
+}
