@@ -3,20 +3,25 @@ const ctx = canvas.getContext("2d");
 const scoreDiv = document.getElementById("score");
 const winner = document.getElementById("winner");
 
+let  audio = new Audio("winner.mp3");
+
 let ImgUp = new Image();
-ImgUp.src = "turtle_up.png";
+ImgUp.src = "kanye_up.png";
 
 let ImgDown = new Image();
-ImgDown.src = "turtle_down.png";
+ImgDown.src = "kanye_down.png";
 
 let ImgLeft = new Image();
-ImgLeft.src = "turtle_left.png";
+ImgLeft.src = "kanye_left.png";
+
+let imgwinner = new Image();
+imgwinner.src = "kanye_winner.png";
 
 let ImgRight = new Image();
-ImgRight.src = "turtle_right.png";
+ImgRight.src = "kanye_right.png";
 
 let ImgApple = new Image();
-ImgApple.src = "PixelApple.png";
+ImgApple.src = "champagne_score.png";
 
 let currentImg = ImgDown;
 
@@ -55,7 +60,9 @@ const update = () => {
 
   if (score >= 10) {
     winner.innerHTML = "Winner!";
+    currentImg = imgwinner;
     restartButton.style.display = "block";
+    audio.play();
   }
   
   restartButton.addEventListener("click", () => {

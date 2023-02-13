@@ -1,5 +1,5 @@
 #game{
-    background-color: #0b3402;
+    background-color: #979897;
     outline: 5px;
     outline-color: #1a0c01;
     max-width: calc(90% - 10px);
@@ -12,7 +12,7 @@
     
 
 body{
-    background-color: rgb(93, 183, 85);
+    background-color: rgb(86, 86, 86);
 
 }
 
