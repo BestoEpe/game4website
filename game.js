@@ -116,6 +116,6 @@ restartButton.style.display = "none";
 
 
 
-
+//muokkaus
 
 setInterval(update, 16);
