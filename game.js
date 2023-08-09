@@ -7,7 +7,7 @@ let  audio = new Audio("winner.mp3");
 
 let ImgUp = new Image();
 ImgUp.src = "kanye_up.png";
-
+//hei
 let ImgDown = new Image();
 ImgDown.src = "kanye_down.png";
 
